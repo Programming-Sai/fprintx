@@ -66,7 +66,7 @@ i:  2    i*10:   20   i^2:  4
 To install fprintx directly via pip, simply run:
 
 ```bash
-pip install fprintx
+pip install git+https://github.com/Programming-Sai/fprintx.git
 ```
 
 If you'd like to test, contribute, or run it locally, you can also clone the repository:
