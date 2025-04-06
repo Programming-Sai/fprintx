@@ -72,7 +72,7 @@ pip install git+https://github.com/Programming-Sai/fprintx.git
 If you'd like to test, contribute, or run it locally, you can also clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/fprintx.git
+git clone https://github.com/Programming-Sai/fprintx.git
 
 cd fprintx
 ```
@@ -99,9 +99,27 @@ python -m unittest discover -s tests
 
 ---
 
+## Project Structure
+
+```ftt
+./fprintx/*
+        ├─ fprintx/*
+        |       ├─ core.py
+        |       └─ __init__.py
+        ├─ tests/*
+        |       └─ test_fprintx.py
+        ├─ .fttignore
+        ├─ .gitignore
+        ├─ LICENSE
+        ├─ README.md
+        └─ setup.py
+```
+
+---
+
 ## Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/fprintx/issues) for any ideas or to report bugs.
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Programming-Sai/fprintx/issues) for any ideas or to report bugs.
 
 ---
 
