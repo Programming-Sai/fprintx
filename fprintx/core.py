@@ -63,3 +63,11 @@ def printx(*args, widths=None, alignments=None, styles=None, truncate=False, ret
 # printx("HEllo", 'Kow', 353434353434353434353434353434353434353434353434353434, widths=[10], styles=['', 'italic'], truncate=True)
 # printx("HEllo", 'Kow', 2, widths=[10], styles=['', 'italic'], truncate=True)
 # printx("HEllo", 'Kow', 'lkl', widths=[10], truncate=True, styles=['bold'])
+
+
+# for i in range(3):
+#     printx("i:", i, "i*10:", i*10, "i^2:", i**2, widths=[3, 4, 6, 5, 4])
+
+# print()
+# for i in range(3):
+#     print("i:", i, "i*10:", i*10, "i^2:", i**2)
